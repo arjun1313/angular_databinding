@@ -1,0 +1,6 @@
+<h1>Scenario 4 Child</h1>
+<div>
+    <input type="text" #input>
+    <button (click)="onAddData(input.value)">addData</button>
+    <Scenario4Parent [data]="input.value"></Scenario4Parent>
+</div>

@@ -1,0 +1,6 @@
+<h1>Scenario 5 GrandChild</h1>
+<div>
+    <input type="text" #input>
+    <button (click)="onAddData(input.value)">addData</button>
+    <Scenario5Child [datafromgc]="input.value"></Scenario5Child>
+</div>
